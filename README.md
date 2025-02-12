@@ -76,18 +76,18 @@ cd Kisisel-Site
 
 4. Environment Değişkenlerini Ayarlayın
 
-# Backend için .env dosyası
+## Backend için .env dosyası
   PORT=5000
   MONGODB_URI=mongodb+srv://<kullanıcı>:<şifre>@cluster0.xxxxx.mongodb.net/veritabani-adi
 
 
-# Frontend için .env.local dosyası
+## Frontend için .env.local dosyası
   GA_MEASUREMENT_ID=G-XXXXXXXXXX  # Google Analytics'ten alacağınız ölçüm ID'si
   GOOGLE_CLIENT_EMAIL=xxx@xxx.iam.gserviceaccount.com  # Service Account email
   GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nXXXXX\n-----END PRIVATE KEY-----\n"  # Service Account private key
   GA_VIEW_ID=12345678  # Google Analytics View ID
 
-# 3. Docker ile çalıştırma
+## 3. Docker ile çalıştırma
   docker-compose up --build
   -Frontend: http://localhost:3000
   -Admin Panel: http://localhost:3000/admin/login
