@@ -76,24 +76,24 @@ cd Kisisel-Site
 
 4. Environment Değişkenlerini Ayarlayın
 
-Backend için `.env` dosyası değiştirin:
-env
-PORT=5000
-MONGODB_URI=mongodb+srv://<kullanıcı>:<şifre>@cluster0.xxxxx.mongodb.net/veritabani-adi
+-Backend için `.env` dosyası değiştirin:
+-env
+-PORT=5000
+-MONGODB_URI=mongodb+srv://<kullanıcı>:<şifre>@cluster0.xxxxx.mongodb.net/veritabani-adi
 
 
-Frontend için `.env.local` dosyası değiştirin:
-env
-GA_MEASUREMENT_ID=G-XXXXXXXXXX # Google Analytics'ten alacağınız ölçüm ID'si
-GOOGLE_CLIENT_EMAIL=xxx@xxx.iam.gserviceaccount.com # Service Account email
-GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nXXXXX\n-----END PRIVATE KEY-----\n" # Service Account private key
-GA_VIEW_ID=12345678 # Google Analytics View ID
+-Frontend için `.env.local` dosyası değiştirin:
+-env
+-GA_MEASUREMENT_ID=G-XXXXXXXXXX # Google Analytics'ten alacağınız ölçüm ID'si
+-GOOGLE_CLIENT_EMAIL=xxx@xxx.iam.gserviceaccount.com # Service Account email
+-GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nXXXXX\n-----END PRIVATE KEY-----\n" # Service Account private key
+-GA_VIEW_ID=12345678 # Google Analytics View ID
 
 5. Docker ile çalıştırın
-bash
-docker-compose up --build
+-bash
+-docker-compose up --build
 
-Frontend: http://localhost:3000
-Admin Panel: http://localhost:3000/admin/login
-AD:admin ŞİFRE:123456
-AD ve Sifreyi değiştirmek isterseniz, frontend/src/pages/admin/login.tsx dosyasından değiştirebilirsiniz.
+-Frontend: http://localhost:3000
+-Admin Panel: http://localhost:3000/admin/login
+-AD:admin ŞİFRE:123456
+-AD ve Sifreyi değiştirmek isterseniz, frontend/src/pages/admin/login.tsx dosyasından değiştirebilirsiniz.
