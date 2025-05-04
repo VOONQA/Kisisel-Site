@@ -84,7 +84,7 @@ cd Kisisel-Site
 - GA_MEASUREMENT_ID=G-XXXXXXXXXX  # Google Analytics'ten alacağınız ölçüm ID'si
 - GOOGLE_CLIENT_EMAIL=xxx@xxx.iam.gserviceaccount.com  # Service Account email
 - GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nXXXXX\n-----END PRIVATE KEY-----\n"  # Service Account private key
-- GA_VIEW_ID=12345678  # Google Analytics View ID
+- GA_VIEW_ID=12345678  
   - 
 ## 3. Docker ile çalıştırma
 - docker-compose up --build
